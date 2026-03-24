@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noizzy - Experience Music Like Never Before</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <nav class="navbar glass">
+        <div class="container">
+            <a href="#" class="logo">
+                <i data-lucide="music-4"></i>
+                <span>Noizzy</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#preview">Preview</a></li>
+                <li><a href="https://pub-your-r2-id.r2.dev/Noizzy%20Setup%201.0.0.exe" class="btn-primary" download>Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="container hero-content">
+            <h1 class="reveal">Elevate Your <span class="gradient-text">Music Experience</span></h1>
+            <p class="reveal-delay">Stream your favorite tracks from YouTube Music with a premium, sleek interface.
+                Download for offline listening and enjoy seamless playback.</p>
+            <div class="hero-btns reveal-delay-2">
+                <a href="#download" class="btn-large">Get Started <i data-lucide="arrow-right"></i></a>
+                <a href="#preview" class="btn-outline">Watch Preview</a>
+            </div>
+        </div>
+        <div class="hero-bg-glow"></div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title reveal">Unleash the Power of Music</h2>
+            <div class="features-grid">
+                <div class="feature-card glass reveal">
+                    <i data-lucide="zap"></i>
+                    <h3>High Performance</h3>
+                    <p>Lightweight and lightning fast. Experience music without any lag or interruptions.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="download-cloud"></i>
+                    <h3>Bulk Downloads</h3>
+                    <p>Download your entire playlist with a single click. Keep your library ready for offline listening.
+                    </p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="share-2"></i>
+                    <h3>Spotify Import</h3>
+                    <p>Import your Spotify playlists instantly by just pasting the link. No login required.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="shuffle"></i>
+                    <h3>Smart Shuffle</h3>
+                    <p>Experience an intelligent shuffle that understands your taste and prevents repetition.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="sparkles"></i>
+                    <h3>Recommendations</h3>
+                    <p>Get a personalized music feed updated in real-time based on your listening habits.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="search"></i>
+                    <h3>Smart Search</h3>
+                    <p>Easily find any song, album, or artist from the vast YouTube Music library.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="palette"></i>
+                    <h3>Premium Design</h3>
+                    <p>A beautiful, modern interface with glassmorphism effects and smooth animations.</p>
+                </div>
+                <div class="feature-card glass reveal">
+                    <i data-lucide="shield-check"></i>
+                    <h3>Privacy First</h3>
+                    <p>No tracking, no ads. Just you and your music, exactly how it should be.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="preview" class="preview">
+        <div class="container">
+            <h2 class="section-title reveal">See it in Action</h2>
+            <div class="preview-grid">
+                <div class="preview-item glass reveal">
+                    <p class="preview-label">Desktop Experience</p>
+                    <img src="assets/mockup.jpg" alt="Noizzy Desktop App Preview" class="mockup-img zoomable">
+                </div>
+                <div class="preview-item glass reveal">
+                    <p class="preview-label">Immersive Full Screen</p>
+                    <img src="assets/fullscreen.png" alt="Noizzy Full Screen Mode Preview" class="mockup-img zoomable">
+                </div>
+                <div class="preview-item glass reveal">
+                    <p class="preview-label">Download Section</p>
+                    <img src="assets/mobile.png" alt="Noizzy Mobile App Preview" class="mockup-img zoomable">
+                </div>
+                <div class="preview-item glass reveal">
+                    <p class="preview-label">Smart Library</p>
+                    <img src="assets/library.png" alt="Noizzy Library View Preview" class="mockup-img zoomable">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-card glass reveal">
+                <h2>Ready to Start Listening?</h2>
+                <p>Download Noizzy for Windows and transform your music journey today.</p>
+                <a href="https://pub-your-r2-id.r2.dev/Noizzy%20Setup%201.0.0.exe" class="btn-download btn-large" download>
+                    <i data-lucide="download"></i> Download for Windows (.exe)
+                </a>
+                <p class="small-text">Version 1.0.0 | Windows 10/11 x64</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Noizzy Music. All rights reserved.</p>
+            <p class="developer-credit">Developed by <a href="https://github.com/kuldipsha000-dotcom" target="_blank">Kuldip Sha</a></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
