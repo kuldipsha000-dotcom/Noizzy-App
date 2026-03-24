@@ -1,12 +1,10 @@
 # Noizzy — Elevate Your Music Experience
 
-![Noizzy Banner](./landing-page/assets/mockup.png)
-
 Noizzy is a premium, high-performance music streaming application for Windows, designed to deliver a seamless and immersive music experience. Powered by YouTube Music and featuring a sleek, modern interface, Noizzy aims to transform the way you listen to your favorite tracks.
 
 ## 🌐 Live Demo & Landing Page
 Check out our stunning landing page for more features and a visual tour:
-👉 **[Visit Noizzy Landing Page (Placeholder link)]**
+👉 **[Visit Noizzy Landing Page](https://noizzyapp.vercel.app/)**
 
 ## 🚀 Key Features
 
