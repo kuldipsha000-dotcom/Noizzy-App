@@ -1,6 +1,6 @@
 # Noizzy — Elevate Your Music Experience
 
-![Noizzy Banner](landing-page/assets/mockup.png)
+![Noizzy Banner](./landing-page/assets/mockup.png)
 
 Noizzy is a premium, high-performance music streaming application for Windows, designed to deliver a seamless and immersive music experience. Powered by YouTube Music and featuring a sleek, modern interface, Noizzy aims to transform the way you listen to your favorite tracks.
 
@@ -14,7 +14,7 @@ Check out our stunning landing page for more features and a visual tour:
 - **📥 Bulk Downloads**: Download entire playlists with a single click for offline listening.
 - **🔗 Spotify Import**: Easily import your existing Spotify playlists just by pasting the link—no login required.
 - **🔀 Smart Shuffle**: An intelligent shuffling algorithm that understands your musical taste and prevents repetition.
-- **🤖 AI Recommendations**: A real-time music feed tailored to your listening habits for continuous discovery.
+- **📋 Recommendations**: A real-time music feed tailored to your listening habits for continuous discovery.
 - **✨ Premium UI**: A beautiful dark-themed interface built with glassmorphism and smooth animations.
 
 ## 🛠️ Technology Stack
@@ -30,8 +30,7 @@ Check out our stunning landing page for more features and a visual tour:
 Noizzy-App/
 ├── web/            # Frontend (Vite + React/JS) and Electron entry
 ├── python-api/     # Backend processing and YouTube integration
-├── landing-page/   # Production-ready promo site
-└── mobile/         # Mobile companion app (Expo/React Native)
+└── landing-page/   # Production-ready promo site
 ```
 
 ## 📖 How to Install
