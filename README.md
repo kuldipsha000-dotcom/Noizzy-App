@@ -1,30 +1,44 @@
-# Noizzy Landing Page
+# Noizzy — Elevate Your Music Experience
 
-A premium, high-performance landing page for the **Noizzy Music** application. Featuring a modern glassmorphism aesthetic, smooth scroll-triggered animations, and full mobile responsiveness.
+![Noizzy Banner](landing-page/assets/mockup.png)
 
-## Project Structure
+Noizzy is a premium, high-performance music streaming application for Windows, designed to deliver a seamless and immersive music experience. Powered by YouTube Music and featuring a sleek, modern interface, Noizzy aims to transform the way you listen to your favorite tracks.
 
-- `index.html`: Main structure with semantic HTML5.
-- `style.css`: Modern Dark Theme with glass effects and responsive layouts.
-- `main.js`: Scroll animations, Lightbox functionality, and smooth navigation.
-- `assets/`: High-resolution application mockups and graphics.
+## 🌐 Live Demo & Landing Page
+Check out our stunning landing page for more features and a visual tour:
+👉 **[Visit Noizzy Landing Page (Placeholder link)]**
 
-## Key Features
+## 🚀 Key Features
 
-### 🚀 Visuals & UX
-- **Glassmorphism Aesthetic**: Uses `backdrop-filter: blur()` for a premium, sleek feel.
-- **Scroll Reveal Animations**: Elements fade in gracefully as you scroll down.
-- **Interactive Lightbox**: Click any application preview to zoom in and view full-screen.
-- **Fully Responsive**: Perfectly aligned for Desktop, Tablet, and Mobile devices (centered hero and features).
+- **⚡ High Performance**: Lightweight, lag-free streaming with a focus on speed and efficiency.
+- **📥 Bulk Downloads**: Download entire playlists with a single click for offline listening.
+- **🔗 Spotify Import**: Easily import your existing Spotify playlists just by pasting the link—no login required.
+- **🔀 Smart Shuffle**: An intelligent shuffling algorithm that understands your musical taste and prevents repetition.
+- **🤖 AI Recommendations**: A real-time music feed tailored to your listening habits for continuous discovery.
+- **✨ Premium UI**: A beautiful dark-themed interface built with glassmorphism and smooth animations.
 
-### 🎵 Core Feature Highlights
-- **High Performance**: Built for speed and reliability.
-- **Bulk Downloads**: Click-to-save entire playlists for offline listening.
-- **Spotify Import**: Seamlessly import your Spotify library by pasting a link.
-- **Smart Shuffle**: Intelligent shuffling based on listener habits.
-- **AI Feed**: Real-time song recommendations tailored to your mood.
+## 🛠️ Technology Stack
 
----
+- **Frontend**: Vite + React / Vanilla JS for a fast and interactive user interface.
+- **Desktop Core**: Electron for a native Windows experience.
+- **Backend API**: Python (Flask/FastAPI) handling music search, metadata, and download logic.
+- **Icons & Fonts**: Lucide Icons and Outfit Typography for a consistent, professional design.
 
-## Developer
-Developed by [Kuldip Sha](https://github.com/kuldipsha000-dotcom)
+## 📦 Project Structure
+
+```text
+Noizzy-App/
+├── web/            # Frontend (Vite + React/JS) and Electron entry
+├── python-api/     # Backend processing and YouTube integration
+├── landing-page/   # Production-ready promo site
+└── mobile/         # Mobile companion app (Expo/React Native)
+```
+
+## 📖 How to Install
+
+1. Download the latest installer from the [Releases](https://github.com/kuldipsha000-dotcom/Noizzy-App/releases) page.
+2. Run `Noizzy.Setup.1.0.0.exe` and follow the instructions.
+3. Start streaming!
+
+## 🤝 Developed By
+**Kuldip Sha** — [GitHub Profile](https://github.com/kuldipsha000-dotcom)
